@@ -1,0 +1,145 @@
+/* tablet mobile */
+@media (max-width:1023px){
+    .header__information{
+        display: none;
+    }
+    .menu-mobile-tablet{
+        display: block;
+    }
+    .number-page{
+        display: flex;
+    }
+    .main{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+/* >pc resolution */
+@media (min-width:1024px) and (max-width:1033px){
+    .header{
+        padding: 0 15px;
+    }
+    .header__booking-date{
+        display: none;
+    }
+    .header__booking-viewer{
+        display: none;
+    }
+    .header__information{
+        min-width: 60%;
+        position: relative;
+        right: 35px;
+    }
+    .header__booking-relative{
+        flex-basis: 70%;
+    }
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .footer{
+        padding-bottom: 400px;
+    }
+    .content__container-main-bg{
+        margin-bottom: 14px;
+    }
+    .content__container-main-more-img{
+        margin-bottom: 14px;
+    }
+    .content__container-hotel-items-img-list{
+        margin-top:20px;
+    }
+    .content__container-hotel-details{
+        margin-bottom: 14px;
+    }
+    .content___container-instruct{
+        margin-bottom: 14px;
+    }
+    .content__container-discovery{
+        margin-top: 14px;
+    }
+    .footer__head-name{
+        margin-top: 14px;
+    }
+    .footer-logo-img{
+        position: relative;
+        top:-4px;
+    }
+    .footer-card-name-public{
+        transform: translateX(40%);
+    }
+    .footer-card-name-certification{
+        margin-bottom: 14px;
+        transform: translateX(35%);
+    }
+    .footer-card-list-img{
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    .footer-card-name{
+        text-align: center;
+    }
+}
+/* mobile */
+@media (max-width:739px){
+    .header__booking-date{
+        display: none;
+    }
+    .header__booking-viewer-number{
+        display: none;
+    }
+    .header__booking-viewer-search{
+        display: none;
+    }
+    .header{
+        padding: 0;
+    }
+    .header__booking-relative{
+        width: 300px;
+    }
+    .sliber-content{
+        margin: 30px 4px;
+    }
+    .content{
+        padding: 0 4px;
+    }
+    .content__container-main-img{
+        margin-bottom: 4px;
+    }
+    .content__container-main-more{
+        margin-top: 8px;
+    }
+    .content__container-main-more-img{
+        margin-bottom: 4px;
+    }
+    .content__container-hotel-items{
+        margin-bottom: 32px;
+    }
+    .content__container-hotel-details{
+        margin-bottom: 4px;
+    }
+    .content__container-search-place{
+        line-height: 6rem;
+    }
+    .content__container-store{
+        margin-bottom: 32px;
+    }
+    .footer-list{
+        margin-bottom: 54px;
+    }
+    .footer-apps{
+        margin-left: 84px;
+    }
+    .footer-card-img{
+        height: 40px;
+    }
+    .footer-card-name{
+        margin-top: 32px;
+    }
+    .footer{
+        padding-bottom: 350px;
+    }
+}
+/* >pc resolution */
+@media (min-width:1024px){
+    
+}
